@@ -1,3 +1,5 @@
+import About from '@/components/about';
+import Contact from '@/components/contact';
 import Navbar from '@/components/navbar';
 
 export default function Home() {
@@ -9,8 +11,7 @@ export default function Home() {
       <p>Welcome to the home section.</p>
     </section>
     <section id="about" className="min-h-screen p-8 bg-gray-200">
-      <h1 className="text-4xl font-bold">About</h1>
-      <p>Learn more about us in this section.</p>
+      <About />
     </section>
     <section id="star" className="min-h-screen p-8 bg-gray-300">
       <h1 className="text-4xl font-bold">Star</h1>
@@ -20,9 +21,8 @@ export default function Home() {
       <h1 className="text-4xl font-bold">Rasi</h1>
       <p>Information about rasis.</p>
     </section>
-    <section id="contact" className="min-h-screen p-8 bg-gray-500">
-      <h1 className="text-4xl font-bold">Contact</h1>
-      <p>Get in touch with us.</p>
+    <section id="contact" className="min-h-screen p-8">
+    <Contact />
     </section>
   </div>
   );
