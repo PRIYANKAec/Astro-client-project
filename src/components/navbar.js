@@ -36,10 +36,10 @@ export default function Navbar() {
                 </div>
                 <div className="hidden sm:flex space-x-4 text-black">
                     <a href="#home" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">முகப்பு</a>
+                    <a href="#contact" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">தொடர்பு</a>
                     <a href="#about" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">எங்களை பற்றி</a>
                     <a href="#star" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">நட்சத்திரங்கள்</a>
                     <a href="#rasi" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">இராசிகள்</a>
-                    <a href="#contact" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">தொடர்பு</a>
                 </div>
                 <div className="sm:hidden">
                     <button onClick={(event) => { event.stopPropagation(); toggleMenu(event); }} className="text-black focus:outline-none">
@@ -52,10 +52,10 @@ export default function Navbar() {
             {isOpen && (
                 <div ref={menuRef} onClick={toggleMenu} className="absolute right-2 mt-4 w-56 bg-secondary border border-yellow-400 rounded-lg shadow-sm shadow-yellow-400 p-4 space-y-4 text-black">
                     <a href="#home" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">முகப்பு</a>
+                    <a href="#contact" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">தொடர்பு</a>
                     <a href="#about" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">எங்களை பற்றி</a>
                     <a href="#star" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">நட்சத்திரங்கள்</a>
                     <a href="#rasi" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">இராசிகள்</a>
-                    <a href="#contact" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">தொடர்பு</a>
                 </div>
             )}
         </nav>

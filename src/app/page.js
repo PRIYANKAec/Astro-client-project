@@ -17,6 +17,10 @@ export default function Home() {
           <Landing />
         </section>
 
+        <section id="contact" className='scroll-mt-8 md:scroll-mt-16'>
+          <Contact />
+        </section>
+
         <section id="about" className='scroll-mt-8 md:scroll-mt-16'>
           <About />
         </section>
@@ -28,10 +32,7 @@ export default function Home() {
         <section id="rasi" className='scroll-mt-8 md:scroll-mt-16'>
           <Raasi />
         </section>
-
-        <section id="contact" className='scroll-mt-8 md:scroll-mt-16'>
-          <Contact />
-        </section>
+        
       </div>
     </div>
   );

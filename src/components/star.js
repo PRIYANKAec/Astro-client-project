@@ -37,7 +37,8 @@ const Star = () => {
                 <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-5 text-center text-red-800">
                     நட்சத்திரம் மற்றும் தெய்வங்கள்
                 </h1>
-                <p className="text-lg sm:text-xl md:text-2xl font-semibold mb-6 sm:mb-8 text-center text-red-900">27 நட்சத்திரம் அதில் பிறந்தவர்கள் வணங்க வேண்டிய தெய்வங்கள்</p>
+                <p className="text-lg sm:text-xl md:text-2xl font-semibold mb-6 sm:mb-8 text-center text-red-900">பிறந்த நட்சத்திரம் வரும் நாட்களில்  வணங்கி வந்தால் காரிய தடைகள் விலகி  சகல சுபிட்சமும் கிடைக்கும்....
+</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {details.map((item, index) => (
                         <div

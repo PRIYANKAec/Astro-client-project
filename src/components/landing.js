@@ -12,16 +12,16 @@ export default function LandingPage() {
       image: "/vinayagar.jpg",
     },
     {
-      title: "Content title",
+      title: "முருகன் அருள் மழை",
       description:
-        "Content description",
-      image: "/astro-carousel-2.jpg", // Replace with actual image path
+        "முருகன், குமரன், குகன், என்று மொழிந்து உருகும் செயல் தந்து, உணர்வு என்று அருள்வாய் பொரு புங்கவரும், புவியும் பரவும் குருபுங்கவ, எண் குண பஞ்சரனே..",
+      image: "/murugan.jpeg",
     },
     {
-      title: "Content title",
+      title: "",
       description:
-        "Content description",
-      image: "/astro-carousel-3.jpg", // Replace with actual image path
+        "",
+      image: "/tamilmani.png", 
     },
   ];
 
@@ -70,12 +70,20 @@ export default function LandingPage() {
         {/* Welcome Section */}
         <div className="text-center mb-10">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 text-red-800">
-          கற்பக விநாயகர் ஜோதிட ஆராய்ச்சி மையம்
+            கற்பக விநாயகர் ஜோதிடம்
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-800">
-            எங்கள் மையத்தில் உங்கள் ஜாதக கணிப்பு மற்றும் பிற ராசி தகவல்களை
-            அறிய சிறந்த ஆலோசனைகளை பெறுங்கள்.
-          </p>
+          <div className="text-base text-start sm:text-xl md:text-2xl leading-relaxed text-gray-800">
+            <div>ஜோதிடம் வாழ்வியல் வழிகாட்டி!!!</div>
+
+            <ul className="list-disc pl-5">
+              <li>கர்மாவின் பலன்களை எடுத்துரைக்கும் படிப்பினையும் கொடுப்பனையும் சொல்லிக் கொடுக்கும்..</li>
+              <li>விதி, மதி, கதி, இவற்றின் துணை கொண்டு கணிக்கப்படுகிறது...</li>
+              <li>ராசி & கோச்சாரம் மட்டும் பலன் கூறுவது பொருத்தமாக வருவதில்லை...</li>
+              <li>உங்கள் ஜனன ஜாதகத்தில் உள்ள?</li>
+              <li>கிரகங்களின் தன்மை அதன் நட்சத்திர சாரம்..</li>
+              <li>ராசி & லக்னம் நின்ற கிரகங்களின் திசை, புத்தி, அந்தரம் கிரகப்பெயர்ச்சி, திதி, யோகம், கர்ணம், இவற்றைக் கொண்டு வாழ்வில் நடக்கக்கூடிய நிகழ்வுகளை துல்லியமாக அறியலாம்....</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -46,12 +46,34 @@ export default function About() {
           {/* Section 4 */}
           <div className="p-4 sm:p-6 bg-yellow-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-red-700 mb-3">
-              🌟 ராசி செயல்பாடுகள்
+              🌟 பரிகாரங்கள்
             </h2>
             <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-800">
-              12 இராசிகளின் தனித்துவம் மற்றும் அவற்றின் தினசரி, வார, மாத செயல்பாடுகள்
-              பற்றிய விபரங்களை இங்கே அறியலாம்.
+              இறை பக்தி..
+              சுய ஒழுக்கம்..
+              மனக்கட்டுப்பாடு...
+              சிலசெயல், சிந்தனைகளை  மாற்றி  செயல்படுவதன் மூலமாக  துன்பங்களிலிருந்து விடுபடலாம்.
             </p>
+          </div>
+
+          <div className="p-4 sm:p-6 bg-yellow-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <img
+                  src='/aru.jpg'
+                  alt='ஆறுமுகம் பெரியசாமி'
+                  className="w-24 h-24 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-lg"
+                />
+              </div>
+              <div className="ml-4">
+                <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-red-700 mb-3">
+                  🌟 ஆறுமுகம் பெரியசாமி
+                </h2>
+                <div className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-800">
+                  {/* Additional content can go here */}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
