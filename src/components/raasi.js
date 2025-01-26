@@ -4,7 +4,7 @@ const Raasi = () => {
     const raasiData = [
         {
             name: "மேஷம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-1.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -14,7 +14,7 @@ const Raasi = () => {
         },
         {
             name: "ரிஷபம்",
-            image: "/astro-logo.png",
+            image: "/rashi-2.jpg",
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம் ....",
@@ -24,7 +24,7 @@ const Raasi = () => {
         },
         {
             name: "மிதுனம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-3.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -36,7 +36,7 @@ const Raasi = () => {
         },
         {
             name: "கடகம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-4.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -48,7 +48,7 @@ const Raasi = () => {
         },
         {
             name: "சிம்மம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-5.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -60,7 +60,7 @@ const Raasi = () => {
         },
         {
             name: "கன்னி",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-6.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -72,7 +72,7 @@ const Raasi = () => {
         },
         {
             name: "துலாம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-7.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -84,7 +84,7 @@ const Raasi = () => {
         },
         {
             name: "விருச்சிகம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-8.jpg",
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -96,7 +96,7 @@ const Raasi = () => {
         },
         {
             name: "தனுசு",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-9.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -108,7 +108,7 @@ const Raasi = () => {
         },
         {
             name: "மகரம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-10.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -120,7 +120,7 @@ const Raasi = () => {
         },
         {
             name: "கும்பம்",
-            image: "/astro-logo.png", // Replace with actual image path
+            image: "/rashi-11.jpg", 
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம்..",
@@ -132,7 +132,7 @@ const Raasi = () => {
         },
         {
             name: "மீனம்",
-            image: "/astro-logo.png",
+            image: "/rashi-12.jpg",
             details: [
                 "ராசி & லக்கினம்",
                 "திருமணத்துக்கு உகந்த காலம் ....",
@@ -158,7 +158,7 @@ const Raasi = () => {
                             <div className="flex flex-col items-center">
                                 <img
                                     src={raasi.image}
-                                    alt={`${raasi.name} Picture`}
+                                    alt={`${raasi.name}`}
                                     className="w-24 h-24 rounded-full mb-4"
                                 />
                                 <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-red-700 mb-3">

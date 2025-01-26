@@ -9,7 +9,7 @@ export default function Home() {
     <div className='w-full'>
       <Navbar />
       <div className="pt-20"> 
-        <section id="home" className="min-h-screen bg-gray-100 pt-20">
+        <section id="home" className="min-h-screen bg-gray-100">
           <h1 className="text-4xl font-bold">Home</h1>
           <p>Welcome to the home section.</p>
         </section>
@@ -26,9 +26,8 @@ export default function Home() {
           <Raasi />
         </section>
 
-        <section id="contact" className="min-h-screen p-8 bg-gray-500 pt-20">
-          <h1 className="text-4xl font-bold">Contact</h1>
-          <p>Get in touch with us.</p>
+        <section id="contact">
+          <Contact />
         </section>
       </div>
     </div>
