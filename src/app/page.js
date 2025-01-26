@@ -1,4 +1,5 @@
 import About from '@/components/about';
+import Contact from '@/components/contact';
 import Navbar from '@/components/navbar';
 import Raasi from '@/components/raasi';
 import Star from '@/components/star';

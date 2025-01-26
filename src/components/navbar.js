@@ -24,7 +24,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className='bg-primary p-4 md:p-6 lg:p-8 fixed top-0 left-0 w-full z-50'>
+        <nav className='bg-primary p-4 md:p-6 lg:p-8 top-0 left-0 w-full'>
             <div className="container w-full mx-auto flex justify-between items-center">
                 <div className="text-black flex items-center sm:text-xl md:text-2xl font-bold">
                     <img
