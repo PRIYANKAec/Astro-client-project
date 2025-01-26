@@ -72,3 +72,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+.scroll-mt-16 {
+  scroll-margin-top: 110px; 
+}
+.scroll-mt-8 {
+  scroll-margin-top: 74px; 
+}
