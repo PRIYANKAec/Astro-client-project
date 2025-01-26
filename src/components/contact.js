@@ -68,6 +68,22 @@ export default function Contact() {
 
             <div>
               <Label
+                htmlFor="birthtime"
+                className="block text-lg font-medium text-gray-800 mb-1"
+              >
+                பிறந்த நேரம்:
+              </Label>
+              <Input
+                type="time"
+                id="birthtime"
+                name="birthtime"
+                required
+                className="w-full border-gray-300 rounded-lg shadow-sm focus:ring-red-400 focus:border-red-400"
+              />
+            </div>
+
+            <div>
+              <Label
                 htmlFor="birthplace"
                 className="block text-lg font-medium text-gray-800 mb-1"
               >
@@ -80,22 +96,6 @@ export default function Contact() {
                 required
                 className="w-full border-gray-300 rounded-lg shadow-sm focus:ring-red-400 focus:border-red-400"
                 placeholder="உங்கள் பிறந்த இடத்தை உள்ளிடவும்"
-              />
-            </div>
-
-            <div>
-              <Label
-                htmlFor="birthtime"
-                className="block text-lg font-medium text-gray-800 mb-1"
-              >
-                பிறந்த நேரம்:
-              </Label>
-              <Input
-                type="time"
-                id="birthtime"
-                name="birthtime"
-                required
-                className="w-full border-gray-300 rounded-lg shadow-sm focus:ring-red-400 focus:border-red-400"
               />
             </div>
 
