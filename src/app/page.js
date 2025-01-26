@@ -5,24 +5,16 @@ import Contact from '@/components/contact';
 import Navbar from '@/components/navbar';
 import Raasi from '@/components/raasi';
 import Star from '@/components/star';
+import Landing from '@/components/landing';
 
 export default function Home() {
-  const [navbarHeight, setNavbarHeight] = useState(0);
-
-  useEffect(() => {
-    const navbar = document.querySelector('nav');
-    if (navbar) {
-      setNavbarHeight(navbar.offsetHeight);
-    }
-  }, []);
 
   return (
     <div className='w-full flex flex-col'>
       <Navbar />
-      <div className="flex-grow"> 
-        <section id="home" style={{ paddingTop: `${navbarHeight}px` }} className="min-h-screen bg-gray-100">
-          <h1 className="text-4xl font-bold">Home</h1>
-          <p>Welcome to the home section.</p>
+      <div className="flex-grow">
+        <section id="home" className='scroll-mt-8 md:scroll-mt-16' >
+          <Landing />
         </section>
 
         <section id="about" className='scroll-mt-8 md:scroll-mt-16'>

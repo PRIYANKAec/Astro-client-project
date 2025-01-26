@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 
 export default function About() {
   return (
-    <div className="sm:py-11 md:py-20 lg:py-12">
+    <div className="sm:py-11 px-3 sm:px-2 md:py-20 md:px-1 lg:py-12 lg:px-5 ">
       <div className="container mx-auto py-8 px-4 sm:py-10 sm:px-6 bg-gradient-to-r from-yellow-100 via-orange-100 to-yellow-200 rounded-lg shadow-lg">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 text-center text-red-800">
           எங்களை பற்றி

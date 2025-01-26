@@ -32,7 +32,7 @@ const Star = () => {
     ];
 
     return (
-        <div className="my-4  px-3 sm:px-2 sm:py-11 md:px-1 md:py-20 lg:px-1 lg:py-12">
+        <div className="my-4  px-3 sm:px-2 sm:py-11 md:px-1 md:py-20 lg:px-5 lg:py-12">
             <div className="container mx-auto py-8 px-4 sm:py-10 sm:px-6 bg-gradient-to-r from-yellow-100 via-orange-100 to-yellow-200 rounded-lg shadow-lg">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-5 text-center text-red-800">
                     நட்சத்திரம் மற்றும் தெய்வங்கள்
