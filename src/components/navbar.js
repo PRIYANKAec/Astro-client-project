@@ -26,20 +26,21 @@ export default function Navbar() {
     return (
         <nav className='bg-primary p-4 md:p-6 lg:p-8 fixed top-0 left-0 w-full z-50'>
             <div className="container w-full mx-auto flex justify-between items-center">
-                <div className="text-black flex items-center sm:text-xl md:text-2xl font-bold">
+                <div className="text-black flex items-center sm:text-xl md:text-2xl lg:text-3xl font-bold">
                     <img
                         src="/astro-logo.png"
                         alt="Logo"
-                        className="w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 mr-2 rounded-xl"
+                        className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 mr-2 rounded-xl"
+                        // w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14
                     />
                     <a className='' href="#home">கற்பக விநாயகர் ஜோதிடம்</a>
                 </div>
                 <div className="hidden sm:flex space-x-4 text-black">
-                    <a href="#home" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">முகப்பு</a>
-                    <a href="#contact" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">தொடர்பு</a>
-                    <a href="#about" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">எங்களை பற்றி</a>
-                    <a href="#star" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">நட்சத்திரங்கள்</a>
-                    <a href="#rasi" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">இராசிகள்</a>
+                    <a href="#home" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">முகப்பு</a>
+                    <a href="#contact" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">தொடர்பு</a>
+                    <a href="#about" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">எங்களை பற்றி</a>
+                    <a href="#star" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">நட்சத்திரங்கள்</a>
+                    <a href="#rasi" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">இராசிகள்</a>
                 </div>
                 <div className="sm:hidden">
                     <button onClick={(event) => { event.stopPropagation(); toggleMenu(event); }} className="text-black focus:outline-none">
