@@ -40,7 +40,7 @@ export default function Navbar() {
                     <a href="#contact" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">தொடர்பு</a>
                     <a href="#about" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">எங்களை பற்றி</a>
                     <a href="#star" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">நட்சத்திரங்கள்</a>
-                    <a href="#rasi" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">இராசிகள்</a>
+                    <a href="#rasi" className="hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-2xl">திருமண தகவல்</a>
                 </div>
                 <div className="sm:hidden">
                     <button onClick={(event) => { event.stopPropagation(); toggleMenu(event); }} className="text-black focus:outline-none">
@@ -56,7 +56,7 @@ export default function Navbar() {
                     <a href="#contact" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">தொடர்பு</a>
                     <a href="#about" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">எங்களை பற்றி</a>
                     <a href="#star" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">நட்சத்திரங்கள்</a>
-                    <a href="#rasi" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">இராசிகள்</a>
+                    <a href="#rasi" className="block hover:text-gray-600 font-medium text-sm sm:text-base md:text-lg lg:text-xl">திருமண தகவல்</a>
                 </div>
             )}
         </nav>
