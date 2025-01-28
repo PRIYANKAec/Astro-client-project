@@ -225,6 +225,30 @@ export default function Contact() {
                 📞 <span className="font-bold">தொலைபேசி:</span> 9894297378, 9840716807
               </li>
               <li className="font-semibold">⚠️ முன் அனுமதி அவசியம்!!</li>
+
+              <li className="text-xl font-bold">🌐 சமூக ஊடகங்கள்:</li>
+              <li className="flex flex-col md:flex-row justify-center space-y-2 lg:space-x-16 md:space-y-0 md:space-x-4 text-xl sm:text-2xl">
+                <a
+                  href="https://www.instagram.com/astroarumugarajan"
+                  target="_blank" rel="noopener noreferrer"
+                  className="flex items-center justify-center space-x-2">
+                  <img
+                    src="/instagram.png"
+                    alt="Instagram"
+                    className="w-6 h-6 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10" />
+                  <span className="font-semibold">astroarumugarajan</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61557289605973"
+                  target="_blank" rel="noopener noreferrer"
+                  className="flex items-center justify-center space-x-2">
+                  <img
+                    src="/facebook.png"
+                    alt="Facebook"
+                    className="w-6 h-6 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10" />
+                  <span className="font-semibold">Astro Arumugarajan</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

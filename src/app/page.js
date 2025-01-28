@@ -33,6 +33,13 @@ export default function Home() {
           <Raasi />
         </section>
         
+        <section className="py-2 sm:py-3 md:py-4 bg-yellow-100 text-center">
+          <div className="container mx-auto">
+            <p className="text-sm text-gray-600">
+              &copy; 2025 All rights reserved.
+            </p>
+          </div>
+        </section>
       </div>
     </div>
   );
