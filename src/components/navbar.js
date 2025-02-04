@@ -30,8 +30,7 @@ export default function Navbar() {
                     <img
                         src="/astro-logo.png"
                         alt="Logo"
-                        className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 mr-2 rounded-xl"
-                        // w-10 h-10 md:w-12 md:h-12 lg:w-14 lg:h-14
+                        className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 mr-2"
                     />
                     <a className='' href="#home">கற்பக விநாயகர் ஜோதிடம்</a>
                 </div>
